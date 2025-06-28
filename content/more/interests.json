@@ -1,0 +1,44 @@
+{
+  "hobbies": [
+    {
+      "name": "Photography",
+      "description": "I love capturing moments and exploring different photography techniques. My favorite subjects are landscapes and street photography.",
+      "icon": "camera"
+    },
+    {
+      "name": "Building Keyboard",
+      "description": "Building my own keyboard is a fun way to learn about hardware and software.",
+      "icon": "keyboard"
+    },
+    {
+      "name": "Travel",
+      "description": "Enjoy exploring new places and cultures.",
+      "icon": "mountain"
+    },
+    {
+      "name": "Foodle",
+      "description": "Love experimenting with new recipes and cuisines. Asian cuisines are my favorites.",
+      "icon": "chef-hat"
+    }
+  ],
+  "Gallery": [
+    {
+      "destination": "Travel",
+      "year": "2024",
+      "description": "Explored Tokyo, Kyoto, and Osaka.",
+      "image": "/images/gallery/japan.jpg"
+    },
+    {
+      "destination": "Keyboard",
+      "year": "now",
+      "description": "Building my own keyboard is a fun way to learn about hardware and software.s",
+      "image": "/images/gallery/keyboard.jpg"
+    },
+    {
+      "destination": "Foodle",
+      "year": "now",
+      "description": "Enjoyed the food and culture of Japan.",
+      "image": "/images/gallery/meat.jpg"
+    }
+  ]
+} 

@@ -1,0 +1,51 @@
+{
+  "name": "Chi-En, Peng",
+  "title": "Security Engineer",
+  "email": "peng.diego@gmail.com",
+  "location": "Sydney, Australia",
+  "summary": "Passionate computer science student with a strong interest in security.",
+  "profileImage": "/images/profile_photo.jpg",
+  "social": {
+    "github": "https://github.com/Chien7N",
+    "linkedin": "https://linkedin.com/in/chien-peng-243bb5371/"
+  },
+  "skills": [
+    "JavaScript",
+    "Java",
+    "C",
+    "Node.js",
+    "Python",
+    "TypeScript",
+    "HTML/CSS",
+    "Git",
+    "Docker",
+    "PostgreSQL",
+    "Penetration Testing",
+    "Network Security",
+    "Algorithm Design"
+  ],
+  "experience": [
+    {
+      "title": "Full-time Student",
+      "company": "UNSW Sydney",
+      "period": "2024 - Present",
+      "description": "A second year computer science student at UNSW Sydney."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "institution": "UNSW Sydney",
+      "period": "2024 - Present",
+      "description": "Software and Security Engineering"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "To be added",
+      "issuer": "",
+      "date": "",
+      "link": "To be added"
+    }
+  ]
+} 
