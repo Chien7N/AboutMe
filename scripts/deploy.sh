@@ -17,7 +17,7 @@ if [ ! -d "node_modules" ]; then
     npm install
 fi
 
-# Build the project
+# Build the project to docs/
 echo "🔨 Building the project..."
 npm run build
 
@@ -27,15 +27,16 @@ if [ ! -d "dist" ]; then
     exit 1
 fi
 
-# Deploy to GitHub Pages
-echo "🚀 Deploying to GitHub Pages..."
-npm run deploy
+# Add and commit docs/
+git add docs
 
-echo "✅ Deployment completed successfully!"
-echo "🌐 Your website should be available at: https://<username>.github.io/Profile/"
-echo ""
-echo "📝 Next steps:"
-echo "1. Go to your GitHub repository settings"
-echo "2. Navigate to 'Pages' section"
-echo "3. Select 'gh-pages' branch as source"
-echo "4. Wait a few minutes for the site to be published" 
+echo "✅ Docs folder staged."
+echo "Now commit and push to main branch to deploy."
+echo "Example:"
+echo "  git commit -m 'Deploy to GitHub Pages'"
+echo "  git push"
+
+npm run build
+git add docs
+git commit -m "Build for GitHub Pages"
+git push 
