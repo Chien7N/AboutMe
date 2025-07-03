@@ -52,7 +52,7 @@ const MoreAboutMe = ({ darkMode }) => {
           <div className="h-48 flex items-center justify-center bg-gray-100 dark:bg-gray-700">
             {item.image ? (
               <img
-                src={item.image}
+                src={import.meta.env.BASE_URL + (item.image.startsWith('/') ? item.image.slice(1) : item.image)}
                 alt={item.destination}
                 className="w-full h-full object-cover"
               />

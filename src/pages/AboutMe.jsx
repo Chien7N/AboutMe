@@ -123,7 +123,7 @@ const AboutMe = ({ darkMode }) => {
           <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-4xl font-bold">
             {profile.profileImage ? (
               <img
-                src={profile.profileImage}
+                src={import.meta.env.BASE_URL + (profile.profileImage.startsWith('/') ? profile.profileImage.slice(1) : profile.profileImage)}
                 alt={profile.name}
                 className="w-full h-full rounded-full object-cover"
               />
